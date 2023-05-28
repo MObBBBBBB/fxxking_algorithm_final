@@ -2,6 +2,7 @@
 using namespace std;
 typedef int status;
 
+// 建议看书上的版本
 void quick_sort(status *a, int left, int right)
 {
     if (left >= right) return;

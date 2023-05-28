@@ -5,6 +5,7 @@ typedef int status;
 const int N = 1e6 + 1;
 status tmp[N];
 
+// 建议看书上的版本
 void merge_sort(status a[], int left, int right)
 {
     if (left >= right) return;
